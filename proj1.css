@@ -1,0 +1,102 @@
+body{
+  
+    background-size: 2000px 980px;
+    background-image: url("/home/pranaaph/Pictures/images/techy.jpg");
+    background-repeat:no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* box-shadow: 50px; */
+} 
+.center{
+    position:absolute;
+    top:30%;
+    left:65%;
+    width:400px;
+    /* height: 20%; */
+    transform: translate(-50% -50%);
+    background: white;
+    border-radius: 10px;
+}
+.center h1{
+    text-align: center ;
+    padding: 0 0 20px 0;
+    border-bottom:2px solid blue;
+}
+.center form{
+padding: 0 40px;
+box-sizing: border-box;
+}
+form .text{
+    position: relative;
+    border-bottom: 2px solid blue;
+    margin:30px 0;
+}
+.text input{
+    width:100%;
+    padding:0 5px;
+    height:40px;
+    font-size: 16px;
+    border: none;
+    background:none;
+    outline: none;
+}
+.text label{
+    position:absolute;
+    top:50%;
+    left:5px;
+    color: brown;
+    font-size: 16px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+/* .text span::before{
+    content: '';
+    position:absolute;
+    top: 40px;
+    left:0;
+    width: 100%;
+    height: 2px;
+    background: #2691d6;
+} */
+.pass{
+    margin: 5px;
+    color: black;
+    cursor: pointer;
+}
+.pass:hover{
+    text-decoration: underline;
+    color: blue  ;
+}
+input[type="submit"]{
+    width: 100%;
+    height:50px;
+    border: 1px solid;
+    margin: 15px 0 ;
+    background: blue;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+}
+input[type="submit"]:hover{
+    /* text-decoration: underline; */
+    border-color: blue;
+    transition:.5s ;
+}
+.sign{
+    margin: 10px 0;
+    text-align: center;
+    font-size:16px;
+    font-weight: 500;
+    color: #666666;
+}
+.sign a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+}
+.sign a:hover{
+    text-decoration: underline;
+    color:brown;
+}
