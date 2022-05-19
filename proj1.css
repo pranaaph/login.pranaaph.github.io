@@ -1,7 +1,7 @@
 body{
   
     background-size: 2000px 980px;
-    background-image: url("/home/pranaaph/Pictures/images/techy.jpg");
+    background-image: url("assets/techy.jpg");
     background-repeat:no-repeat;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* box-shadow: 50px; */
